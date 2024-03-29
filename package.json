@@ -1,0 +1,74 @@
+{
+  "name": "voluptatibustempore",
+  "moduleName": "DePayButtons",
+  "version": "1.0.0",
+  "description": "A simple button brings Web3 Payments to your website or App. DePay simplifies and improves Web3 Payments with the power of DeFi. Accept any token with on-the-fly conversion with state-of-the-art widgets.",
+  "main": "./dist/umd/index.js",
+  "module": "./dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HayleyKunze/voluptatibustempore.git"
+  },
+  "keywords": [
+    "web3",
+    "payments",
+    "velit",
+    "consequuntur",
+    "widgets",
+    "react",
+    "numquam",
+    "quo"
+  ],
+  "author": "ConradProsacco",
+  "homepage": "https://github.com/HayleyKunze/voluptatibustempore.git",
+  "license": "MIT",
+  "dependencies": {
+    "@depay/react-shadow-dom": "^5.0.5",
+    "@depay/web3-blockchains": "^8.0.4",
+    "@depay/widgets": "^11.4.4"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "@cypress/react": "^5.12.5",
+    "@depay/react-shadow-dom": "^5.0.5",
+    "@depay/web3-blockchains": "^8.0.4",
+    "@depay/widgets": "^11.4.4",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-replace": "^2.4.1",
+    "@rollup/plugin-sucrase": "^3.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cypress": "^7.6.0",
+    "eslint": "^7.15.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "ethers": "^5.7.1",
+    "jest": "^26.6.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "regenerator-runtime": "^0.13.7",
+    "rollup": "^2.34.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-polyfill-node": "^0.7.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "webpack": "^5.73.0"
+  }
+}
